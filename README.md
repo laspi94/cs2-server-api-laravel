@@ -1,14 +1,14 @@
 # CS:GO Server API - Laravel package
 Laravel package to interface [CS:GO Server API](https://github.com/laspi94/csgo-server-api).
 
-## How it works
+## Cómo funciona
 This package interfaces [my CS:GO API](https://github.com/laspi94/csgo-server-api) main endpoints:
 
 `/send` que puede enviar un comando, con un retraso a un solo servidor;
 
 `/sendAll` que puede enviar un comando, con un retraso a todos los servidores controlados por la API;
 
-## Requirements
+## Requisitos
 * PHP 8.*
     
 * [CS:GO Server API](https://github.com/laspi94/csgo-server-api) instalación
@@ -23,7 +23,7 @@ Publish config:
 
 `php artisan vendor:publish --provider="laspi94\CsgoServerApi\Providers\PackageServiceProvider"`
 
-## Configuration
+## Configuración
 Cualquier configuración puede ser modificada en `configs/csgo-api.php`
 
 #### `CSGO_API_URL=http://my-csgo-server-api.com/`
