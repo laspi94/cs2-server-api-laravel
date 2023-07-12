@@ -2,6 +2,7 @@
   "name": "laspi94/cs2-server-api-laravel",
   "description": "Una forma sencilla de comunicarse con los servidores de CS 2.",
   "version": "1.0.0",
+  "type": "library",
   "require": {
     "laravel/framework": "^10.10",
     "ixudra/curl": "^6.22"
