@@ -1,0 +1,43 @@
+{
+  "name": "laspi94/csgo-server-api-laravel",
+  "description": "A simple way to communicate with CS:GO servers.",
+  "type": "vcs",
+  "url": "https://github.com/laspi94/csgo-server-api-laravel",
+  "require": {
+    "laravel/framework": "^10.10",
+    "ixudra/curl": "^6.22"
+  },
+  "require-dev": {
+    "vlucas/phpdotenv": "^v5.2.0",
+    "phpunit/phpunit": "^8.0",
+    "php-coveralls/php-coveralls": "^2.1",
+    "orchestra/testbench": "^6.20"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "laspi94"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "laspi94\\CsgoServerApi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "laspi94\\CsgoServerApi\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "laspi94\\CsgoServerApi\\Providers\\PackageServiceProvider"
+      ],
+      "aliases": {
+        "CsgoApi": "laspi94\\CsgoServerApi\\Facades\\CsgoApi"
+      }
+    }
+  }
+}
