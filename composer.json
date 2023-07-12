@@ -1,8 +1,7 @@
 {
-  "name": "laspi94/csgo-server-api-laravel",
-  "description": "A simple way to communicate with CS:GO servers.",
-  "type": "vcs",
-  "url": "https://github.com/laspi94/csgo-server-api-laravel",
+  "name": "laspi94/cs2-server-api-laravel",
+  "description": "Una forma sencilla de comunicarse con los servidores de CS 2.",
+  "version": "1.0.0",
   "require": {
     "laravel/framework": "^10.10",
     "ixudra/curl": "^6.22"
