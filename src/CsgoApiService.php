@@ -1,10 +1,10 @@
 <?php
 
-namespace foxx\CsgoServerApi;
+namespace laspi94\CsgoServerApi;
 
-use foxx\CsgoServerApi\Classes\Senders\BroadcastSender;
-use foxx\CsgoServerApi\Classes\Senders\DirectSender;
-use foxx\CsgoServerApi\Classes\Summaries\ByServerSummary;
+use laspi94\CsgoServerApi\Classes\Senders\BroadcastSender;
+use laspi94\CsgoServerApi\Classes\Senders\DirectSender;
+use laspi94\CsgoServerApi\Classes\Summaries\ByServerSummary;
 
 /**
  * Delete this folder and have fun

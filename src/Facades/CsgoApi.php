@@ -1,4 +1,4 @@
-<?php namespace foxx\CsgoServerApi\Facades;
+<?php namespace laspi94\CsgoServerApi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

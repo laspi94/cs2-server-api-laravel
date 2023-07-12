@@ -1,6 +1,6 @@
 <?php
 
-namespace foxx\CsgoServerApi;
+namespace laspi94\CsgoServerApi;
 
 use Exception;
 
