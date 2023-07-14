@@ -17,7 +17,7 @@ This package interfaces [my CS:GO API](https://github.com/laspi94/csgo-server-ap
 
 Usando el Composer, run (Laravel/Framework ^10.0):
 
-`composer require laspi94/csgo-server-api-laravel:3.0.0`
+`composer require laspi94/csgo-server-api-laravel:1.0.0`
   
 Publish config:
 
